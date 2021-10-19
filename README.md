@@ -1,8 +1,8 @@
-Design and implement a white-box test for a program that computes the sine and cosine functions in a specialized manner. This program is going to be part of an embedded system running on a processor that does not support floating-point arithmetic. The program to be tested is attached. Your job is to test the functions sin and cos; you are to assume that the functions sin0to45 and sin45to90 have already been tested. 
+>Design and implement a white-box test for a program that computes the sine and cosine functions in a specialized manner. This program is going to be part of an embedded system running on a processor that does not support floating-point arithmetic. The program to be tested is attached. Your job is to test the functions sin and cos; you are to assume that the functions sin0to45 and sin45to90 have already been tested. 
 
-Attached Program:
+**Attached Program:**
 
-/** These functions compute the sine and cosine of an angle
+'/** These functions compute the sine and cosine of an angle
     expressed in degrees. The result will be
     an integer representing the sine or cosine as
     ten-thousandths. For example, a result of 7071 represents
@@ -86,4 +86,4 @@ int polyEval(int x, int coef[], int n) {
     result += coef[i];
   }
   return result;
-}
+}'
