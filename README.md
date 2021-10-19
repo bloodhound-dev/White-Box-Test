@@ -2,7 +2,7 @@
 
 **Attached Program:**
 
-'/** These functions compute the sine and cosine of an angle
+/** These functions compute the sine and cosine of an angle
     expressed in degrees. The result will be
     an integer representing the sine or cosine as
     ten-thousandths. For example, a result of 7071 represents
@@ -86,4 +86,4 @@ int polyEval(int x, int coef[], int n) {
     result += coef[i];
   }
   return result;
-}'
+}
